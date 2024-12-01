@@ -1,5 +1,5 @@
 {
-  "name": "AdventOfCode",
+  "name": "advent",
   "version": "1.0.0",
   "description": "Repo for AdventOfCode",
   "main": "index.ts",
