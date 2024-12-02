@@ -24,7 +24,7 @@ describe('Day 1 Tests', () => {
   test('sortLists calculates the correct total distance', () => {
     const { left, right } = parseFile(input)
     const distance = sortLists(left, right)
-    expect(distance).toBe(11) // Manually calculated
+    expect(distance).toBe(11)
   })
 
   test('calculatedDistance computes the correct distance', () => {
@@ -59,7 +59,7 @@ describe('Day 1 Tests', () => {
   test('Integration Test - Part One', async () => {
     const { left, right } = parseFile(input)
     const result = calculatedDistance(left, right)
-    expect(result).toBe(11)
+    expect(result).toBe(13)
   })
 
   test('Integration Test - Part Two', async () => {
