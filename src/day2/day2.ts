@@ -62,7 +62,7 @@ export const isSafe = (levels: number[]): boolean => {
 export let dampener = false
 
 export const setDampener = (value: boolean): void => {
-  dampener = value
+  dampener = value //for testing
 }
 
 export const partOne = async (): Promise<number> => {
